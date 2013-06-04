@@ -22,5 +22,5 @@ kilos = weight * 0.45
 cm = height * 2.54
 puts ""
 puts "If %s were European he would:" % name
-puts "Weigh %d kilograms." % kilos
+puts "Weigh %d kilograms." % kilosa
 puts "Be %d centimeters tall!" % cm # This looks better!
