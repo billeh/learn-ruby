@@ -2,7 +2,7 @@ filename = ARGV.first
 prompt = '> '
 
 target = File.open(filename, 'a+')
-puts "Current file contents:"
+puts "File #{filename} contents:"
 puts target.read()
 puts "Continue?"
 print "Press enter."
